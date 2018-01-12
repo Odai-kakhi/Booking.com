@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text" placeholder="first name" name="firstName" required/>
+        <label for="lastName">Last Name</label>
+        <input id="lastName" type="text" placeholder="last name" name="lastName" required/>
+        <br/><br/>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender" value="male" checked/>
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender" value="female" />
+        <label for="other">Other</label>
+        <input id="other" type="radio" name="gender" value="other" />
+        <br/><br/>
+        <label for="email">Email</label>
+        <input type="email" placeholder="email" name="firstName" required multiple>
+        <label for="email">PassWord</label>
+        <input type="password" placeholder="password" name="password" minlength="5" maxlength="10" required>
+        <br/><br/>
+        <label>Birthday</label>
+        <select name="DOBDay">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <select name="DOBMonth">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+        </select>
+
+        <select name="DOBYear">
+            <option value="1947">1947</option>
+            <option value="1948">1948</option>
+            <option value="1949">1949</option>
+            <option value="1950">1950</option>
+            <option value="1951">1951</option>
+        </select>
+        <br><br>
+        <label for="agree"> I agree to the items and conditions</label>
+        <input type="checkbox" id="agree" name="agreement" required>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
