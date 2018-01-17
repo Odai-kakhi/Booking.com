@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    margin-left: 40%
+}
+
+.top {
+    width: 40%;
+    height: 10%;
+    display: flex;
+}
+
+.top-1 {
+    width: 10%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.top-2 {
+    width: 10%;
+    height: 100%;
+}
+
+.top-3 {
+    width: 10%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.medile {
+    width: 40%;
+    height: 10%;
+    display: flex;
+}
+
+.medile-1 {
+    width: 10%;
+    height: 100%;
+}
+
+.medile-2 {
+    width: 10%;
+    height: 96%;
+    border: 2px solid black;
+}
+
+.medile-3 {
+    width: 10%;
+    height: 100%;
+}
+
+.bottom {
+    width: 40%;
+    height: 10%;
+    display: flex;
+}
+
+.bottom-1 {
+    width: 10%;
+    height: 100%;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.bottom-2 {
+    width: 10%;
+    height: 100%;
+}
+
+.bottom-3 {
+    width: 10%;
+    height: 100%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
