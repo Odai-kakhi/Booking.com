@@ -1,0 +1,35 @@
+.container {
+    width: 70%;
+    border: 15px solid LIGHTGRAY;
+    margin: auto;
+    padding: 10px
+}
+
+h1 {
+    font-size: 22px;
+    font-family: Open Sans;
+    color: CADETBLUE;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Open Sans;
+    color: MIDNIGHTBLUE;
+    margin: 20px;
+}
+
+.articles {
+    padding: 10px
+}
+
+.p-1 {
+    border-left: 7px solid LIGHTGRAY;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.p-2 {
+    padding: 10px;
+    font-family: Lato;
+}
