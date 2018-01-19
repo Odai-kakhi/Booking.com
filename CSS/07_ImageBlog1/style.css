@@ -1,0 +1,13 @@
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+h1 {
+    font-family: Kavivanar;
+    margin-left: 5%;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+}
